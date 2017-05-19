@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen_lock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fff.xiaoqiang.testscreenlock.ScreenLockActivity"
+    android:background="@android:color/holo_orange_light">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="qwertyiuodfkjfdklkdfjdf哈达卡菲勒酒店附近饭店客房酒店客房均"/>
+
+    <TextView
+        android:textSize="17sp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text=">>右滑解锁"/>
+</RelativeLayout>
