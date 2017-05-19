@@ -22,7 +22,7 @@ public class ScreenLockService extends Service {
 
             @Override
             public void onReceive(Context context, Intent intent) {
-                if (intent.getAction() == Intent.ACTION_SCREEN_OFF) {
+                if (intent.getAction().equals(Intent.ACTION_SCREEN_OFF)) {
                     Intent lockScreen = new Intent(ScreenLockService.this, ScreenLockActivity.class);
                     lockScreen.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(lockScreen);
